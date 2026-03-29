@@ -77,10 +77,11 @@ I'm a B.Tech Computer Science student specailised in Artificial Intelligence and
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Adv41t&theme=dark&hide_border=false&include_all_commits=true&count_private=true" /><br/>
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adv41t&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
-</p>
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Adv41t&theme=github_dark)
 
+## 💻 Languages
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Adv41t&theme=github_dark)
+
+## 🔥 Streak
+![](https://streak-stats.demolab.com?user=Adv41t&theme=dark)
 ---
