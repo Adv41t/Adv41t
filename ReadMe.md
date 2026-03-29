@@ -1,16 +1,16 @@
 <h1 align="center">Hi there, I'm Advait Balachandar 👋</h1>
 
 <p align="center">
-  <em>CSE-AIML Undergrad &nbsp;&nbsp; Hackathon Winner</em>
+  <b>CSE-AIML Undergrad&nbsp;~ Hackathon Winner</b>
 </p>
 
 ## 👨‍💻 About Me
 
-I'm a B.Tech Computer Science student specailised in Artificial Intelligence and Machine learning. I enjoy building impactful, real-world projects using Machine Learning, Deep Learning, and make AI-powered systems on fields like aviation and healthcare.
+I'm a B.Tech Computer Science student specailised in Artificial Intelligence and Machine learning. I enjoy building impactful, real-world projects using Machine Learning and make AI-powered systems on fields like aviation and healthcare.
 
 - 🔭 &nbsp;Currently working on: **AI-Powered Smart Patient Triage System (PARS)**
 - 🌱 &nbsp;Currently learning: **;-;**
-- 🏆 &nbsp;Recent highlight: **1st place @ PRAGYAN x KANINI AI Hackathon 2026**
+- 🏆 &nbsp;Recent highlight: **1st place @ PRAGYAN x KANINI AI Hackathon 2026 at NIT Trichy**
 ---
 
 ## 🌐 Socials
@@ -80,6 +80,6 @@ I'm a B.Tech Computer Science student specailised in Artificial Intelligence and
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Adv41t&theme=github_dark)
 
 ## 💻 Languages and Streak
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Adv41t&theme=github_dark) &nbsp &nbsp
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Adv41t&theme=github_dark) &nbsp; &nbsp;
 ![](https://streak-stats.demolab.com?user=Adv41t&theme=dark)
 ---
