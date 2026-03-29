@@ -1,6 +1,6 @@
-# Hi 👋, I'm Ad
+# Hi 👋, I'm Advait
 
-### A passionate Javascript developer
+### ZZZZZZZZ
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
