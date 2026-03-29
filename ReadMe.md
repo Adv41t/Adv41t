@@ -8,9 +8,9 @@
 
 I'm a B.Tech Computer Science student specailised in Artificial Intelligence and Machine learning. I enjoy building impactful, real-world projects using Machine Learning and make AI-powered systems on fields like aviation and healthcare.
 
-- 🔭 &nbsp;Currently working on: **AI-Powered Smart Patient Triage System (PARS)**
-- 🌱 &nbsp;Currently learning: **;-;**
-- 🏆 &nbsp;Recent highlight: **1st place @ PRAGYAN x KANINI AI Hackathon 2026 at NIT Trichy**
+-  &nbsp;Currently working on: **AI-Powered Smart Patient Triage System (PARS)**
+-  &nbsp;Currently learning: **;-;**
+-  &nbsp;Recent highlight: **1st place @ PRAGYAN x KANINI AI Hackathon 2026 at NIT Trichy**
 ---
 
 ## 🌐 Socials
