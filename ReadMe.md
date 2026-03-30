@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Advait Balachandar 👋</h1>
 
 <p align="center">
-  <b>CSE-AIML Undergrad&nbsp;~ Hackathon Winner</b>
+  <b>CSE-AIML Undergrad&nbsp;~ Pragyan Hackathon Winner</b>
 </p>
 
 ## 👨‍💻 About Me
