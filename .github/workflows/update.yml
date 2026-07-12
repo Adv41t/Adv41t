@@ -31,7 +31,7 @@ jobs:
 
       - name: Run Update Script
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.TOKEN_GH }}
         run: python scripts/update_svg.py
 
       - name: Commit Updated SVG

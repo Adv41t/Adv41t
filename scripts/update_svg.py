@@ -150,10 +150,10 @@ def calculate_all_loc(repos: List[Dict[str, Any]], token: str, username: str, ap
 
 def main() -> None:
     """Main function orchestrating API calls, LOC counting, and SVG updates."""
-    # 1. Fetch token
-    token = os.environ.get("GH_TOKEN")
+    # 1. Fetch token (support both GH_TOKEN and TOKEN_GH)
+    token = os.environ.get("GH_TOKEN") or os.environ.get("TOKEN_GH")
     if not token:
-        logger.error("GH_TOKEN environment variable is not set. Exiting gracefully.")
+        logger.error("Neither GH_TOKEN nor TOKEN_GH environment variable is set. Exiting gracefully.")
         sys.exit(0)
         
     try:
