@@ -1,31 +1,41 @@
-name: Update GitHub Profile SVG
+name: Update Profile SVG
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update:
+  update-svg:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
+      - name: Checkout Repository
+        uses: actions/checkout@v4
         with:
-          python-version: "3.12"
+          # Fetch full history so git commands inside python can query correctly if needed
+          fetch-depth: 0
 
-      - run: pip install requests
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
 
-      - name: Update SVG
-        run: python scripts/update_svg.py
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Update Script
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python scripts/update_svg.py
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Commit Updated SVG
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update GitHub profile stats"
+          commit_message: "Auto-update profile.svg statistics"
+          file_pattern: "assets/profile.svg"
