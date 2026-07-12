@@ -1,60 +1,80 @@
+<h1 align="center">Hi there, I'm Advait Balachandar 👋</h1>
+
 <p align="center">
-  <img src="./assets/profile.svg">
+  <b>CSE-AIML Undergrad&nbsp;~ Pragyan Hackathon Winner</b>
 </p>
 
-# GitHub Profile Stats SVG Updater
+## 👨‍💻 About Me
 
-This project automatically updates the terminal-themed stats SVG card on your GitHub profile every 6 hours using a Python script and GitHub Actions.
-
-## Setup Instructions
-
-Follow these steps to configure the automation in your repository:
-
-### 1. Create a GitHub Personal Access Token (`GH_TOKEN`)
-
-The automation requires a Personal Access Token (PAT) to read your statistics (including private/public repository counts, total commits, followers, contributions) and calculate Lines of Code (LOC) by cloning repositories:
-
-1. Go to your GitHub **Settings** > **Developer settings** > **Personal access tokens** > **Tokens (classic)** (or Fine-grained tokens).
-2. Click **Generate new token (classic)**.
-3. Provide a descriptive name (e.g., `Profile Stats Updater Token`).
-4. Select the following scopes:
-   - **`repo`** (Full control of private and public repositories - required to clone private repositories for LOC calculations).
-   - **`read:user`** (To read user profile data).
-5. Set an expiration date (or choose "No expiration" if you want it to run indefinitely).
-6. Click **Generate token** and copy the token value immediately.
+I'm a B.Tech Computer Science student specialised in Artificial Intelligence and Machine learning. I enjoy building impactful, real-world projects using Machine Learning and make AI-powered systems on aviation and healthcare domains.
 
 ---
 
-### 2. Add the Token to Repository Secrets
+## 🌐 Socials
 
-To make the token available to the GitHub Action workflow securely:
-
-1. Navigate to your profile repository on GitHub (the one hosting this code).
-2. Go to **Settings** > **Secrets and variables** > **Actions**.
-3. Click the **New repository secret** button.
-4. Name the secret **`GH_TOKEN`**.
-5. Paste your Personal Access Token in the **Secret** field.
-6. Click **Add secret**.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/advait-balachandar-693525343/)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:advait.balachandar1537@gmail.com)
 
 ---
 
-### 3. Enable Read/Write Workflow Permissions
+## 💻 Tech Stack
 
-The GitHub Action uses the `stefanzweifel/git-auto-commit-action` to commit the updated SVG back to your repository. This requires write permissions for the default `GITHUB_TOKEN`:
+**Languages**
 
-1. In your repository settings, go to **Settings** > **Actions** > **General**.
-2. Scroll down to the **Workflow permissions** section.
-3. Select **Read and write permissions**.
-4. Click **Save**.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
+**ML / AI**
+
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+
+**Web & Backend**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
+![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white)
+![JavaFX](https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+
+**Databases**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-5A67D8?style=for-the-badge&logo=data&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Tools & Platforms**
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ---
 
-### 4. Enable First Workflow Run & Manual Dispatch
+## 📊 GitHub Stats
 
-You can trigger the workflow manually to verify everything is set up correctly:
+<p align="center">
+  <img src="./assets/profile.svg" alt="GitHub Stats Card" width="985px">
+</p>
 
-1. Click on the **Actions** tab of your repository.
-2. Select the **Update Profile SVG** workflow from the sidebar on the left.
-3. Click the **Run workflow** dropdown button on the right.
-4. Keep the branch as `main` and click **Run workflow**.
-5. Once the run completes, check the **Actions** logs. If any changes were found, the workflow will automatically commit the updated `assets/profile.svg` back to the repository.
+---
+
+*Note: The terminal statistics card above is updated automatically every 6 hours. For configuration instructions, see [SETUP.md](./SETUP.md).*
