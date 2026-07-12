@@ -1,5 +1,7 @@
 <p align="center">
-  <a href="https://github.com/Adv41t">
-    <img src="./assets/profile.svg" width="985" alt="Advait Balachandar Profile Card">
-  </a>
+  <img src="assets/profile.svg" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Adv41t&theme=github_dark" />
 </p>
