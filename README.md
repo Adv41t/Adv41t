@@ -72,6 +72,10 @@ I'm a B.Tech Computer Science student specailised in Artificial Intelligence and
 
 ## 📊 GitHub Stats
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Adv41t&theme=github_dark)
+<div align="center">
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Adv41t&theme=github-dark&hide_border=true" />
+</p>
+</div>
 
 ---
